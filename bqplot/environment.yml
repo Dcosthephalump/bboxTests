@@ -1,0 +1,13 @@
+name: bqplotTest
+channels:
+  - conda-forge
+  - defaults
+  - fastai
+dependencies:
+  - jupyterlab
+  - panel>=0.12.7
+  - bqplot
+  - ipywidgets
+  - numpy
+  - nbdev=2.3.12
+  - fastcore=1.5.28 

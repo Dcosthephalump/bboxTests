@@ -1,0 +1,14 @@
+name: boxStream
+channels:
+  - conda-forge
+  - defaults
+  - fastai
+dependencies:
+  - jupyterlab
+  - holoviews<=1.15.4
+  - panel>=0.12.7
+  - bokeh
+  - ipywidgets
+  - numpy=1.24.0
+  - nbdev=2.3.12
+  - fastcore=1.5.28 

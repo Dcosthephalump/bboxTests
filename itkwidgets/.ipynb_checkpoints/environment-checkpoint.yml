@@ -1,0 +1,14 @@
+name: itkwidgetsTest
+channels:
+  - conda-forge
+  - defaults
+  - fastai
+dependencies:
+  - jupyterlab
+  - panel>=0.12.7
+  - ipywidgets
+  - numpy
+  - nbdev=2.3.12
+  - fastcore=1.5.28
+  - pip # itkwidgets is installed into an environment after the fact
+  # pip install 'itkwidgets[lab]>=1.0a23'
